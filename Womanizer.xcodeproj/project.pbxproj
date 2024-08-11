@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D92F096C2C0A373100CD0AF9 /* TransitionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92F096B2C0A373100CD0AF9 /* TransitionView.swift */; };
 		D9457D5A2C06C65400020B49 /* WomanizerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457D592C06C65400020B49 /* WomanizerApp.swift */; };
 		D9457D5C2C06C65400020B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457D5B2C06C65400020B49 /* ContentView.swift */; };
 		D9457D5E2C06C65400020B49 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457D5D2C06C65400020B49 /* Item.swift */; };
 		D9457D602C06C65600020B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9457D5F2C06C65600020B49 /* Assets.xcassets */; };
 		D9457D632C06C65600020B49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9457D622C06C65600020B49 /* Preview Assets.xcassets */; };
+		D9457D6A2C06DA0E00020B49 /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457D692C06DA0E00020B49 /* DateExtensions.swift */; };
+		D9457D6C2C06DBA500020B49 /* TimeSinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457D6B2C06DBA500020B49 /* TimeSinceView.swift */; };
+		D9457D6E2C0A305200020B49 /* TimeSinceMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9457D6D2C0A305200020B49 /* TimeSinceMode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D92F096B2C0A373100CD0AF9 /* TransitionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionView.swift; sourceTree = "<group>"; };
 		D9457D562C06C65400020B49 /* Womanizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Womanizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9457D592C06C65400020B49 /* WomanizerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WomanizerApp.swift; sourceTree = "<group>"; };
 		D9457D5B2C06C65400020B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9457D5D2C06C65400020B49 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		D9457D5F2C06C65600020B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9457D622C06C65600020B49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D9457D692C06DA0E00020B49 /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
+		D9457D6B2C06DBA500020B49 /* TimeSinceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSinceView.swift; sourceTree = "<group>"; };
+		D9457D6D2C0A305200020B49 /* TimeSinceMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSinceMode.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +63,13 @@
 			children = (
 				D9457D592C06C65400020B49 /* WomanizerApp.swift */,
 				D9457D5B2C06C65400020B49 /* ContentView.swift */,
+				D9457D6D2C0A305200020B49 /* TimeSinceMode.swift */,
+				D9457D6B2C06DBA500020B49 /* TimeSinceView.swift */,
 				D9457D5D2C06C65400020B49 /* Item.swift */,
 				D9457D5F2C06C65600020B49 /* Assets.xcassets */,
 				D9457D612C06C65600020B49 /* Preview Content */,
+				D9457D692C06DA0E00020B49 /* DateExtensions.swift */,
+				D92F096B2C0A373100CD0AF9 /* TransitionView.swift */,
 			);
 			path = Womanizer;
 			sourceTree = "<group>";
@@ -140,7 +152,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9457D6E2C0A305200020B49 /* TimeSinceMode.swift in Sources */,
 				D9457D5C2C06C65400020B49 /* ContentView.swift in Sources */,
+				D9457D6A2C06DA0E00020B49 /* DateExtensions.swift in Sources */,
+				D92F096C2C0A373100CD0AF9 /* TransitionView.swift in Sources */,
+				D9457D6C2C06DBA500020B49 /* TimeSinceView.swift in Sources */,
 				D9457D5E2C06C65400020B49 /* Item.swift in Sources */,
 				D9457D5A2C06C65400020B49 /* WomanizerApp.swift in Sources */,
 			);
